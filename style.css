@@ -1,0 +1,225 @@
+
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Header */
+header {
+    background-color: #0b3d62;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* School name */
+header h1 {
+    color:chocolate;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+/* Navigation hover */
+nav a:hover {
+    color: #ffd166;
+}
+
+/* All sections */
+section {
+    padding: 50px 10%;
+    margin-bottom: 10px;
+}
+
+/* Home section */
+#home {
+    background-color: #dff3ff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home h2 {
+    font-size: 40px;
+    color: #0b3d62;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.logo {
+    width: 180px;
+    height: 120px;
+    border-radius: 60px;
+    position: absolute;
+    top: 6px;
+    left: 20px;
+}
+
+  .btn {
+    display: inline-block;
+
+    padding: 13px 20px;
+    margin: 5px;
+
+    background: #ffd700;
+    color: #063970;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+/* Buttons */
+button {
+    background-color: #0b3d62;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #082c47;
+}
+
+/* Section headings */
+section h2 {
+    color: #0b3d62;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* About section */
+#about {
+    background-color: white;
+}
+
+#about p {
+    margin-bottom: 15px;
+}
+
+/* Academics */
+#academics {
+    background-color: #eef6fa;
+}
+
+#academics h3 {
+    margin-top: 20px;
+    color: #0b3d62;
+}
+
+#academics ul {
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+#academics li {
+    margin-bottom: 8px;
+}
+
+/* Gallery */
+#gallery {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Contact */
+#contact {
+    background-color: #eef6fa;
+}
+
+#contact p {
+    margin-bottom: 8px;
+}
+
+/* Form */
+form {
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+/* Footer */
+footer {
+    background-color: #0b3d62;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Mobile screen */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    #home h2 {
+        font-size: 30px;
+    }
+
+    section {
+        padding: 40px 5%;
+    }
+
+    #gallery img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+}
